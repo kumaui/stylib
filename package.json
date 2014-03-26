@@ -1,0 +1,24 @@
+{
+  "name": "stylib",
+  "version": "0.0.1",
+  "family": "alinw",
+  "keywords": [
+    "stylib"
+  ],
+  "description": "alinw 样式库",
+  "homepage": "http://aliceui.org/stylib",
+  "repository": {
+    
+  },
+  "bugs": {
+    
+  },
+  "spm": {
+      "alias": {
+        "kuma-button": "alinw/kuma-button/1.0.0/kuma-button.css",
+        "kuma-crumbs": "alinw/kuma-crumbs/1.0.0/kuma-crumbs.css",
+        "kuma-iconfont": "alinw/kuma-iconfont/1.0.0/kuma-iconfont.css"   
+      },
+      "output": ["stylib.css"]
+  }
+}
